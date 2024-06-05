@@ -39,7 +39,7 @@ export default function Home() {
         />
       </div>
 
-    <p>This is sample line.</p>
+      <p>This is some sample text.</p>
 
     <p>You are seeing this.</p>
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
