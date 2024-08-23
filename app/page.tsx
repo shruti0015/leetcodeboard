@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { ModeToggle } from "@/components/mode-toggle"
+import { MyForm } from "@/components/custom/lc-form"
 
 export default function Home() {
   return (
