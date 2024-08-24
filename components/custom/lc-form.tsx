@@ -22,10 +22,10 @@ const formSchema = z.object({
     .string()
     .transform((val) => val.replace(/^0+/, ""))
     .refine((val) => /^\d+$/.test(val), {
-      message: "ID must be greater than zero",
+      message: "ID must be a positive integer",
     })
     .refine((val) => parseInt(val) > 0, {
-      message: "ID must be greater than zero",
+      message: "ID must be a positive integer",
     }),
 })
 
