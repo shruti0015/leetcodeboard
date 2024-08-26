@@ -5,6 +5,7 @@ export const siteConfig = {
   links: {
     linkedin: "https://www.linkedin.com/in/shrutikirti-singh/",
     github: "https://github.com/shruti0015",
+    leetcodeboard_contest: "https://leetcode.com/contest/",
   },
 }
 

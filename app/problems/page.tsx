@@ -1,4 +1,4 @@
-import { MyForm } from "@/components/custom/lc-form"
+import { MyForm } from "@/components/custom/lc-form";
 
 export default function Problems() {
   return (
@@ -7,5 +7,5 @@ export default function Problems() {
         <MyForm />
       </div>
     </div>
-  )
+  );
 }
